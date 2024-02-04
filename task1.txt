@@ -1,0 +1,43 @@
+TASK-1 ====>
+--------------------------------------------------
+steps:
+1.create one folder in local and initiate GIT
+2.need git hub account(Details must)
+3.add file<RBG1> and put data in it, and do add,commit and push to recent branch
+   data in RBG1---->ex:-"first line first file"
+
+4.create branch-1 on local and global also, give the remote connection 
+  to those two branches
+5.add files and put data in it, and do add,commit and push to recent branch
+   data in RBG1---->ex:-"first line first file"
+                        "second line first file"
+   data in RBG2---->ex:-"first line second file"
+
+5.create one more branch-2 on local and RBG-branch in git hub and give the connection
+6.add files and sdata in it, and do add,commit and push to recent branch
+   data in RBG1---->ex:-"first line first file"
+                        "second line first file"
+                        "third line"
+
+   data in RBG2---->ex:-"first line second file"
+                        "second line second file"
+
+   data in RBG3---->ex:-"first line third file"
+   { add two more files "1.txt","2.txt"
+    stash these two files 1.txt,2.txt }
+7.take pull request from branch-1 and merge two branches
+
+8. merge master and branch-1
+
+output :- in master branch
+      data in RBG1---->ex:-"first line first file"
+                        "second line first file"
+                        "third line"
+
+      data in RBG2---->ex:-"first line second file"
+                        "second line second file"
+
+      data in RBG3---->ex:-"first line third file"
+
+
+
